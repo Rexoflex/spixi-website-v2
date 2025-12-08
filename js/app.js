@@ -117,6 +117,7 @@ function createAppCard(app) {
             <p class="app-card__publisher">${app.publisher}</p>
           </div>
           <p class="app-card__description">${app.description}</p>
+          ${app.version ? `<span class="app-card__version">v${app.version}</span>` : ''}
         </div>
       </div>
       <div class="app-card__footer">
@@ -129,7 +130,6 @@ function createAppCard(app) {
           </span>
         </a>
         <div class="app-card__actions">
-          ${app.version ? `<span class="app-card__version">v${app.version}</span>` : ''}
           ${githubLink}
         </div>
       </div>

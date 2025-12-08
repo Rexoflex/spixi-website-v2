@@ -2559,3 +2559,19 @@ Dev Mode
   color: var(--color-text-02, #d4d4d8);
   font-weight: 500;
 }
+/* ========================================
+   QR CODE UPDATES
+   ======================================== */
+
+.modal__qr-code {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    /* Ensure it wraps the content */
+}/* Adjusted Version spacing */
+.app-card__version {
+    margin-top: -4px;
+    /* Pull it up slightly closer to description if needed, or just let gap handle it */
+    display: inline-block;
+}
