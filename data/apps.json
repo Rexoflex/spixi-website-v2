@@ -1,103 +1,88 @@
 {
   "apps": [
     {
-      "id": "ai-assistant",
-      "name": "AI Assistant",
-      "publisher": "Serg",
-      "description": "Local LLM accessed and charged over Spixi and Ixian Platform.",
-      "category": "AI",
-      "featured": true,
-      "icon": "assets/images/ai-assistant.png",
-      "spixiUrl": "spixi://app/ai-assistant",
-      "github": "https://github.com/example/ai-assistant"
-    },
-    {
-      "id": "ixijump",
-      "name": "IXIJump",
-      "publisher": "Spoony",
-      "description": "A fast-paced tapping game built for Spixi. Simple and addictive.",
-      "category": "Games",
-      "featured": true,
-      "icon": "assets/images/ixijump.png",
-      "spixiUrl": "spixi://app/ixijump",
-      "github": "https://github.com/example/ixijump"
-    },
-    {
-      "id": "calculator",
-      "name": "Spixi Calculator",
-      "publisher": "Spoony",
-      "description": "Calculator built into Spixi for everyday math while you chat and work.",
+      "id": "com.ixilabs.spixi.auth",
+      "name": "Spixi Authenticator",
+      "publisher": "IXI Labs",
+      "description": "No description available.",
       "category": "Tools",
       "featured": false,
-      "icon": "assets/images/calculator.png",
-      "spixiUrl": "spixi://app/calculator",
-      "github": "https://github.com/example/calculator"
+      "version": "1.0.0",
+      "icon": "https://raw.githubusercontent.com/ixian-platform/Spixi-Mini-Apps/master/apps/com.ixilabs.spixi.auth/icon.png",
+      "spixiUrl": "spixi://app/com.ixilabs.spixi.auth",
+      "github": "https://github.com/ixian-platform/Spixi-Mini-Apps/tree/master/apps/com.ixilabs.spixi.auth"
     },
     {
-      "id": "pong",
-      "name": "IXI Pong",
-      "publisher": "Baracuda",
-      "description": "Classic game of Pong, but this time play it in Spixi.",
-      "category": "Games",
-      "featured": false,
-      "icon": "assets/images/pong.png",
-      "spixiUrl": "spixi://app/pong",
-      "github": "https://github.com/example/pong"
-    },
-    {
-      "id": "contra",
-      "name": "Contra",
-      "publisher": "Baracuda",
-      "description": "Arcade-style tapping game with increasing difficulty. Built for Spixi.",
-      "category": "Games",
-      "featured": false,
-      "icon": "assets/images/contra.png",
-      "spixiUrl": "spixi://app/contra",
-      "github": "https://github.com/example/contra"
-    },
-    {
-      "id": "tictactoe",
-      "name": "Tic Tac Toe",
-      "publisher": "IXI Labs",
-      "description": "Challenge friends to a quick game and settle debates instantly.",
-      "category": "Games",
-      "featured": true,
-      "icon": "assets/images/tictactoe.png",
-      "spixiUrl": "spixi://app/tictactoe",
-      "github": "https://github.com/example/tictactoe"
-    },
-    {
-      "id": "whiteboard",
-      "name": "Whiteboard",
-      "publisher": "IXI Labs",
-      "description": "Draw together in real time. Share doodles and notes with friends.",
-      "category": "Tools",
-      "featured": true,
-      "icon": "assets/images/whiteboard.png",
-      "spixiUrl": "spixi://app/whiteboard",
-      "github": "https://github.com/example/whiteboard"
-    },
-    {
-      "id": "gate-control",
+      "id": "com.ixilabs.spixi.gate-control",
       "name": "Gate Control",
       "publisher": "IXI Labs",
-      "description": "Connect your IoT gates to Spixi.",
-      "category": "IoT",
+      "description": "No description available.",
+      "category": "Tools",
       "featured": false,
-      "icon": "assets/images/gate-control.png",
-      "spixiUrl": "spixi://app/gate-control",
-      "github": "https://github.com/example/gate-control"
+      "version": "1.0.2",
+      "icon": "https://raw.githubusercontent.com/ixian-platform/Spixi-Mini-Apps/master/apps/com.ixilabs.spixi.gate-control/icon.png",
+      "spixiUrl": "spixi://app/com.ixilabs.spixi.gate-control",
+      "github": "https://github.com/ixian-platform/Spixi-Mini-Apps/tree/master/apps/com.ixilabs.spixi.gate-control"
     },
     {
-      "id": "miniapps-test",
+      "id": "com.ixilabs.spixi.mini-apps-test",
       "name": "Mini Apps Test",
       "publisher": "IXI Labs",
-      "description": "Explore and test the Spixi Mini Apps SDK.",
-      "category": "Dev Tools",
+      "description": "No description available.",
+      "category": "Tools",
       "featured": false,
-      "icon": "assets/images/miniapps-test.png",
-      "spixiUrl": "spixi://app/miniapps-test",
-      "github": "https://github.com/example/miniapps-test"
+      "version": "1.2.0",
+      "icon": "https://raw.githubusercontent.com/ixian-platform/Spixi-Mini-Apps/master/apps/com.ixilabs.spixi.mini-apps-test/icon.png",
+      "spixiUrl": "spixi://app/com.ixilabs.spixi.mini-apps-test",
+      "github": "https://github.com/ixian-platform/Spixi-Mini-Apps/tree/master/apps/com.ixilabs.spixi.mini-apps-test"
+    },
+    {
+      "id": "com.ixilabs.spixi.tictactoe",
+      "name": "Tic-Tac-Toe",
+      "publisher": "IXI Labs",
+      "description": "No description available.",
+      "category": "Tools",
+      "featured": false,
+      "version": "1.0.6",
+      "icon": "https://raw.githubusercontent.com/ixian-platform/Spixi-Mini-Apps/master/apps/com.ixilabs.spixi.tictactoe/icon.png",
+      "spixiUrl": "spixi://app/com.ixilabs.spixi.tictactoe",
+      "github": "https://github.com/ixian-platform/Spixi-Mini-Apps/tree/master/apps/com.ixilabs.spixi.tictactoe"
+    },
+    {
+      "id": "com.ixilabs.spixi.video-test",
+      "name": "Spixi Video Test",
+      "publisher": "IXI Labs",
+      "description": "No description available.",
+      "category": "Tools",
+      "featured": false,
+      "version": "0.1.0",
+      "icon": "https://raw.githubusercontent.com/ixian-platform/Spixi-Mini-Apps/master/apps/com.ixilabs.spixi.video-test/icon.png",
+      "spixiUrl": "spixi://app/com.ixilabs.spixi.video-test",
+      "github": "https://github.com/ixian-platform/Spixi-Mini-Apps/tree/master/apps/com.ixilabs.spixi.video-test"
+    },
+    {
+      "id": "com.ixilabs.spixi.whiteboard",
+      "name": "Whiteboard",
+      "publisher": "IXI Labs",
+      "description": "No description available.",
+      "category": "Tools",
+      "featured": false,
+      "version": "1.0.2",
+      "icon": "https://raw.githubusercontent.com/ixian-platform/Spixi-Mini-Apps/master/apps/com.ixilabs.spixi.whiteboard/icon.png",
+      "spixiUrl": "spixi://app/com.ixilabs.spixi.whiteboard",
+      "github": "https://github.com/ixian-platform/Spixi-Mini-Apps/tree/master/apps/com.ixilabs.spixi.whiteboard"
+    },
+    {
+      "id": "com.mostnonameuser.spixi.aiassistant",
+      "name": "AI Assistant",
+      "publisher": "mostnonameuser",
+      "description": "No description available.",
+      "category": "Tools",
+      "featured": false,
+      "version": "0.1.2",
+      "icon": "https://raw.githubusercontent.com/ixian-platform/Spixi-Mini-Apps/master/apps/com.mostnonameuser.spixi.aiassistant/icon.png",
+      "spixiUrl": "spixi://app/com.mostnonameuser.spixi.aiassistant",
+      "github": "https://github.com/ixian-platform/Spixi-Mini-Apps/tree/master/apps/com.mostnonameuser.spixi.aiassistant"
     }
   ],
   "categories": [

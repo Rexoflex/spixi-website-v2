@@ -2533,3 +2533,29 @@ Dev Mode
     gap: var(--spacing-md, 16px);
   }
 }
+
+/* ========================================
+   APP CARD UPDATES
+   ======================================== */
+
+.app-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: var(--spacing-md, 16px);
+  /* border-top: 1px solid var(--color-outline-02, #172330);  Optional separator better without if cards are framed */
+}
+
+.app-card__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm, 12px);
+}
+
+.app-card__version {
+  font-family: var(--label-xs-font-family, 'Inter', sans-serif);
+  font-size: var(--label-xs-font-size, 12px);
+  color: var(--color-text-02, #d4d4d8);
+  font-weight: 500;
+}
